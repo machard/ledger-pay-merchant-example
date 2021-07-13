@@ -42,6 +42,22 @@ function RequireDeviceAction(props: Props) {
           }
         });
         break
+      case "pay/success":
+        alert('success');
+        stream.write({
+          id: data.id,
+          res: 'success'
+        });
+        setModal();
+        break
+      case "pay/cancel":
+        alert('cancelled');
+        stream.write({
+          id: data.id,
+          res: 'cancelled'
+        });
+        setModal();
+        break
     }
   }, [amount, dest]);
   
