@@ -16,8 +16,8 @@ import { setModal } from '../providers/modals'
 const styles = (_theme: Theme) => createStyles({
   engine: {
     borderWidth: 0,
-    width: 300,
-    height: 300,
+    width: 400,
+    height: 120,
   }
 });
 
@@ -51,7 +51,7 @@ function RequireDeviceAction(props: Props) {
         setModal();
         break
       case "pay/cancel":
-        alert('cancelled');
+        alert('cancelled ' + data.args[0]);
         stream.write({
           id: data.id,
           res: 'cancelled'
