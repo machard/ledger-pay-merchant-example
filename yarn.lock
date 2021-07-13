@@ -7088,10 +7088,10 @@ last-call-webpack-plugin@^3.0.0:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
 
-ledger-web-engine-react@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ledger-web-engine-react/-/ledger-web-engine-react-1.0.1.tgz#b050e75b21fc3886cb8743a07f4d26dc08dc4fc7"
-  integrity sha512-gj5cYl+JVKPnEEcltuHLEC2Nj/9vlM1aTgbg0js7fQToG5RTYUUMGciGi8u8ATdMvhq/Uy8WDnjvJSmajcmjpg==
+ledger-web-engine-react@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ledger-web-engine-react/-/ledger-web-engine-react-1.0.3.tgz#4a85f2c001deea8532b1dc59af8c4ec7e5431be3"
+  integrity sha512-n0hR1g5m4jGD0ZGKP/L8Pi7UA35kAP/5FZEnsGXPZLTS76WwZz4jgVrmU/Xv6y7rFOhwIKP5p9k1uA4jlAfAyw==
   dependencies:
     "@ledgerhq/hw-transport-webusb" "^6.0.2"
     "@material-ui/core" "^4.11.4"
